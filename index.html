@@ -92,14 +92,14 @@ function joyReply(message){
  /sortie|promen|balade|parc|week.end|dehors/.test(t)?'sortie':
  /budget|gratuit|econom|pas cher/.test(t)?'budget':
  /planning|organis|journee|semaine|fatigu|debord|stress/.test(t)?'planning':null;
- if(/\\b(autre|differente|change|nouvelle idee|encore une|varie)\\b/.test(t)){joyAnother();return;}
+ if(/\b(autre|differente|change|nouvelle idee|encore une|varie)\b/.test(t)){joyAnother();return;}
  var followup=/\b(oui|super|d.accord|ok|stp|detail|comment|etape|pour|adapte|precis|explique|plus)\b/.test(t)||!!child;
  if(joyLastTopic&&followup&&(!type||type===joyLastTopic)){
   joyAdd(joyDetail(joyLastTopic,child),'bot');return;
  }
  if(type){joySuggest(type);return;}
  if(/bonjour|salut|coucou/.test(t)){joyAdd('Bonjour. Je peux vous proposer un repas, une activité, une sortie ou vous aider à organiser votre journée. Que souhaitez-vous préparer ?','bot');return;}
- joyAdd('Je peux vous accompagner sur les repas, les activités, les sorties, le budget ou l'organisation. Indiquez-moi votre besoin pour commencer.','bot');
+ joyAdd('Je peux vous accompagner sur les repas, les activités, les sorties, le budget ou l’organisation. Indiquez-moi votre besoin pour commencer.','bot');
 }
 document.getElementById('joyForm').addEventListener('submit',function(event){
  event.preventDefault();
