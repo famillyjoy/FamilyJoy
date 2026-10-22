@@ -1,4 +1,4 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FamilyJoy V4 – Joy interactive</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f3fb;color:#382c47;font:16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.wrap{max-width:680px;margin:auto;background:white;min-height:100vh;padding-bottom:35px}header{padding:28px 22px;background:linear-gradient(120deg,#e8d9ff,#ffebe3)}h1{font-size:30px;color:#7042a4;margin:0 0 6px}header p{margin:0}main{padding:18px}h2{font-size:23px;margin:12px 0}h3{font-size:18px}.hero{background:linear-gradient(130deg,#efe4ff,#fff1eb);padding:20px;border-radius:20px}.card{border:1px solid #e6ddeb;border-radius:18px;padding:17px;margin:13px 0;box-shadow:0 4px 14px #3c28530b}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tile{display:block;padding:17px;border-radius:16px;background:#f2eafa;text-decoration:none;color:#4d3370;font-weight:700;min-height:100px}.tile span{display:block;font-size:26px;margin-bottom:9px}.btn{display:inline-block;background:#7850b1;color:white;text-decoration:none;border:0;padding:12px 15px;border-radius:12px;font-weight:700;font:inherit;cursor:pointer}label{display:block;font-size:14px;font-weight:700;margin-top:12px}input,select,textarea{display:block;width:100%;font:inherit;border:1px solid #d9cce6;padding:12px;border-radius:10px;margin-top:5px}.muted{color:#756b81;font-size:14px;line-height:1.5}.section{border-top:8px solid #f7f3fb;padding-top:15px;margin-top:24px}.badge{display:inline-block;background:#eadcf9;color:#674195;border-radius:20px;padding:6px 10px;font-size:13px}.bottom{padding:18px;text-align:center;color:#786f82;font-size:13px}ul{line-height:1.9;padding-left:23px}a{color:#7042a4} .member{padding:10px 0 14px;border-bottom:1px solid #eee5f3;margin-bottom:10px}.member:last-child{border:0}.member .remove{background:#f6ecf6;color:#6a4788;margin-top:10px} 
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FamilyJoy V5 – Joy personnalisée</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f3fb;color:#382c47;font:16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.wrap{max-width:680px;margin:auto;background:white;min-height:100vh;padding-bottom:35px}header{padding:28px 22px;background:linear-gradient(120deg,#e8d9ff,#ffebe3)}h1{font-size:30px;color:#7042a4;margin:0 0 6px}header p{margin:0}main{padding:18px}h2{font-size:23px;margin:12px 0}h3{font-size:18px}.hero{background:linear-gradient(130deg,#efe4ff,#fff1eb);padding:20px;border-radius:20px}.card{border:1px solid #e6ddeb;border-radius:18px;padding:17px;margin:13px 0;box-shadow:0 4px 14px #3c28530b}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tile{display:block;padding:17px;border-radius:16px;background:#f2eafa;text-decoration:none;color:#4d3370;font-weight:700;min-height:100px}.tile span{display:block;font-size:26px;margin-bottom:9px}.btn{display:inline-block;background:#7850b1;color:white;text-decoration:none;border:0;padding:12px 15px;border-radius:12px;font-weight:700;font:inherit;cursor:pointer}label{display:block;font-size:14px;font-weight:700;margin-top:12px}input,select,textarea{display:block;width:100%;font:inherit;border:1px solid #d9cce6;padding:12px;border-radius:10px;margin-top:5px}.muted{color:#756b81;font-size:14px;line-height:1.5}.section{border-top:8px solid #f7f3fb;padding-top:15px;margin-top:24px}.badge{display:inline-block;background:#eadcf9;color:#674195;border-radius:20px;padding:6px 10px;font-size:13px}.bottom{padding:18px;text-align:center;color:#786f82;font-size:13px}ul{line-height:1.9;padding-left:23px}a{color:#7042a4} .member{padding:10px 0 14px;border-bottom:1px solid #eee5f3;margin-bottom:10px}.member:last-child{border:0}.member .remove{background:#f6ecf6;color:#6a4788;margin-top:10px} 
 .joy-choices{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:14px 0}
 .joy-choices button{padding:12px;border:1px solid #dfd0f0;background:#f3eafb;border-radius:12px;color:#57377b;font:inherit;text-align:left}
 .joy-chat{background:#faf7ff;border:1px solid #e8dcf2;border-radius:14px;padding:12px;min-height:120px;max-height:350px;overflow:auto}
@@ -23,7 +23,7 @@
 <div id="joyChat" class="joy-chat" role="log" aria-live="polite"><div class="joy-msg bot">Coucou ! 💜 Je suis Joy. Choisis une proposition ou écris-moi ce dont tu as besoin.</div></div>
 <form id="joyForm" class="joy-send"><textarea id="joyInput" rows="2" maxlength="500" placeholder="Écris à Joy…" aria-label="Écris à Joy"></textarea><button type="submit" class="btn">Envoyer 💜</button></form>
 <p class="muted">Les messages ne sont pas envoyés sur Internet et disparaissent au rechargement. Joy ne fournit pas d'informations en direct.</p>
-</div></section><section class="section"><h2>✨ Joy te parle</h2><div class="card"><p>« Coucou ! 💜 Je suis Joy. Bientôt, tu pourras me demander d'organiser ta semaine ou de trouver une sortie géniale autour de toi ! »</p></div></section></main><div class="bottom">FamilyJoy 💜 · V4 · Joy interactive · Sans IA ni synchronisation</div></div><script>function addMember(id){var area=document.getElementById(id);var child=id==='children';var el=document.createElement('div');el.className='member';el.innerHTML=child?'<label>Prénom de l’enfant</label><input placeholder="Prénom"><label>Âge</label><input type="number" min="0" max="17" placeholder="Âge"><button class="btn remove" type="button" onclick="this.parentNode.remove()">Retirer ce profil</button>':'<label>Prénom de l’adulte</label><input placeholder="Prénom"><label>Son rôle dans la famille</label><select><option>Parent</option><option>Compagnon / compagne</option><option>Autre adulte</option></select><button class="btn remove" type="button" onclick="this.parentNode.remove()">Retirer ce profil</button>';area.appendChild(el);saveFamily()}
+</div></section><section class="section"><h2>✨ Joy te parle</h2><div class="card"><p>« Coucou ! 💜 Je suis Joy. Bientôt, tu pourras me demander d'organiser ta semaine ou de trouver une sortie géniale autour de toi ! »</p></div></section></main><div class="bottom">FamilyJoy 💜 · V5 · Joy personnalisée · Sans IA ni synchronisation</div></div><script>function addMember(id){var area=document.getElementById(id);var child=id==='children';var el=document.createElement('div');el.className='member';el.innerHTML=child?'<label>Prénom de l’enfant</label><input placeholder="Prénom"><label>Âge</label><input type="number" min="0" max="17" placeholder="Âge"><button class="btn remove" type="button" onclick="this.parentNode.remove()">Retirer ce profil</button>':'<label>Prénom de l’adulte</label><input placeholder="Prénom"><label>Son rôle dans la famille</label><select><option>Parent</option><option>Compagnon / compagne</option><option>Autre adulte</option></select><button class="btn remove" type="button" onclick="this.parentNode.remove()">Retirer ce profil</button>';area.appendChild(el);saveFamily()}
 var FAMILY_KEY='familyjoy_profiles_v2';
 function readMember(el,child){var fields=el.querySelectorAll('input,select');return child?{name:fields[0].value,age:fields[1].value}:{name:fields[0].value,role:fields[1].value}}
 function saveFamily(){try{var obj={adults:Array.from(document.querySelectorAll('#adults .member')).map(function(el){return readMember(el,false)}),children:Array.from(document.querySelectorAll('#children .member')).map(function(el){return readMember(el,true)})};localStorage.setItem(FAMILY_KEY,JSON.stringify(obj));var status=document.getElementById('saveStatus');if(status)status.textContent='✅ Profils enregistrés sur cet appareil';}catch(e){var status=document.getElementById('saveStatus');if(status)status.textContent='⚠️ Sauvegarde indisponible dans ce lecteur. Essaie Safari.'}}
@@ -45,6 +45,8 @@ budget:["💶 Soirée crêpes maison et cinéma dans le salon : un petit plaisir
 surprise:["🎶 Défi bonheur : chacun choisit une chanson et tout le monde danse !","✨ Inventez une histoire à plusieurs voix, une phrase chacun.","💜 Fabriquez une boîte à souvenirs avec dessins et petits mots."]
 };
 var joyIndices={};
+var joyLastTopic='';
+var joyLastIdea='';
 function joyAdd(message,type){
  var log=document.getElementById('joyChat');
  var el=document.createElement('div');el.className='joy-msg '+type;el.textContent=message;
@@ -53,17 +55,52 @@ function joyAdd(message,type){
 function joySuggest(type){
  var items=joyIdeas[type]||joyIdeas.surprise;
  var n=joyIndices[type]||0;joyIndices[type]=n+1;
- joyAdd(items[n%items.length],'bot');
+ joyLastTopic=type;joyLastIdea=items[n%items.length];
+ joyAdd(joyLastIdea,'bot');
+}
+function joyProfiles(){
+ var children=[];
+ document.querySelectorAll('#children .member').forEach(function(el){
+  var f=el.querySelectorAll('input');var name=f[0]&&f[0].value.trim();
+  var age=f[1]&&f[1].value.trim();
+  if(name)children.push({name:name,age:age});
+ });return children;
+}
+function joyChild(message){
+ var kids=joyProfiles();var normalized=message.toLowerCase();
+ for(var i=0;i<kids.length;i++)if(normalized.includes(kids[i].name.toLowerCase()))return kids[i];
+ var match=message.match(/(\d{1,2})\s*ans?/i);
+ if(match)return {name:'ton enfant',age:match[1]};
+ return kids.length===1?kids[0]:null;
+}
+function joyDetail(type,child){
+ var name=child&&child.name?child.name:'les enfants';
+ var age=child&&child.age?Number(child.age):null;
+ if(type==='activite'){
+  if(age!==null&&age<3)return '🧸 Pour '+name+' ('+age+' an'+(age>1?'s':'')+'), je te propose une chasse aux couleurs adaptée aux tout-petits :\n1. Choisis 3 gros objets sans petites pièces.\n2. Montre une couleur et cherche avec ton enfant un objet de cette couleur.\n3. Félicite chaque découverte !\n⏱️ 5 à 10 minutes, sous surveillance constante.';
+  return '🎨 Une chasse au trésor pour '+name+(age!==null?' ('+age+' ans)':'')+' !\n1. Cache 5 objets familiers dans une pièce.\n2. Dessine 5 indices simples (canapé, table, coussin…).\n3. Donne un indice à la fois.\n4. Termine avec un petit trésor : un dessin, une histoire ou un goûter.\n⏱️ 20 à 30 minutes. Évite les petites pièces si un tout-petit participe.';
+ }
+ if(type==='repas')return '🍽️ Je te propose un dîner familial : pommes de terre au four, omelette et légumes au choix.\n1. Coupe les pommes de terre en petits morceaux.\n2. Enfourne avec un peu d’huile à 200 °C environ 25 à 35 min selon leur taille.\n3. Prépare une omelette bien cuite.\n4. Adapte les textures à l’âge des plus petits.';
+ if(type==='planning')return '📅 Voici un plan simple :\n1. Note une priorité pour aujourd’hui.\n2. Prévois 20 minutes pour le repas.\n3. Réserve une activité calme avec les enfants.\n4. Prépare les sacs et vêtements de demain.\nTu peux me demander une idée pour chaque étape 💜';
+ if(type==='sortie')return '🌳 Prépare une balade chasse aux couleurs : choisis un parc, prends de l’eau et propose de trouver 3 choses vertes, 2 jaunes et 1 rouge. Vérifie la météo et les horaires avant de partir.';
+ if(type==='budget')return '💶 Pour une soirée à petit prix : prépare des crêpes avec ce que tu as, installe des coussins et choisis un film familial. Les enfants peuvent fabriquer les tickets de cinéma !';
+ return '✨ On peut commencer par 10 minutes de musique et de danse, puis inventer ensemble une petite histoire.';
 }
 function joyReply(message){
  var t=message.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+ var child=joyChild(message);
  var type=/repas|manger|diner|dejeuner|cuisine|recette|faim/.test(t)?'repas':
- /activite|occuper|enfant|jeu|dessin|bricolage|ennui/.test(t)?'activite':
+ /activite|occuper|enfant|jeu|dessin|bricolage|ennui|chasse|tresor/.test(t)?'activite':
  /sortie|promen|balade|parc|week.end|dehors/.test(t)?'sortie':
  /budget|gratuit|econom|pas cher/.test(t)?'budget':
  /planning|organis|journee|semaine|fatigu|debord|stress/.test(t)?'planning':null;
- if(type)joySuggest(type);
- else joyAdd("Je suis là 💜 Pour le moment, je peux proposer des repas, des activités, des sorties, des idées petit budget ou un planning. Essaie l'un de ces mots !",'bot');
+ var followup=/\b(oui|super|d.accord|ok|stp|detail|comment|etape|pour|adapte|precis|explique|plus)\b/.test(t)||!!child;
+ if(joyLastTopic&&followup&&(!type||type===joyLastTopic)){
+  joyAdd(joyDetail(joyLastTopic,child),'bot');return;
+ }
+ if(type){joySuggest(type);return;}
+ if(/bonjour|salut|coucou/.test(t)){joyAdd('Coucou 💜 Je peux te proposer un repas, une activité, une sortie ou t’aider à organiser ta journée. Que préfères-tu ?','bot');return;}
+ joyAdd('Je suis là 💜 Je peux proposer des repas, des activités, des sorties, des idées petit budget ou un planning. Choisis un sujet et je pourrai ensuite te donner plus de détails.','bot');
 }
 document.getElementById('joyForm').addEventListener('submit',function(event){
  event.preventDefault();
